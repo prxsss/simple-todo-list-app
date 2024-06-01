@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Todo List App</title>
+
+    <script src="https://kit.fontawesome.com/0907566a76.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <div class="app-container">
+            <div class="search-field">
+                <input class="search" type="text" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <ul class="list-container">
+                <!-- <li class="list pending">
+                    <input type="checkbox">
+                    <span class="task">"dummy text"</span>
+                    <i class="fa-solid fa-pen-to-square" data-icon="edit"></i>
+                    <i class="fa-solid fa-trash" data-icon="trash"></i>
+                </li> -->
+            </ul>
+            <div class="pending-tasks">
+                <p>You have <span class="pending-num">no</span> tasks pending.</p>
+                <button class="clear-all-btn">
+                    Clear All
+                </button>
+            </div>
+            <div class="input-field">
+                <input class="input" type="text" placeholder="Add a task">
+                <button class="add-task-btn">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div> 
+        </div>
+    </main>
+
+    <script src="./script.js"></script>    
+</body>
+</html>
